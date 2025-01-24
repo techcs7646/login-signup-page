@@ -176,3 +176,67 @@
     background-color: cyan;
   }
   
+  /* Media Queries */
+  @media screen and (max-width: 480px) {
+    .my-form-fields {
+      width: 90%;
+      height: 450px;
+    }
+
+    .my-input-group {
+      width: 90%;
+    }
+
+    .name,
+    .password {
+      width: 100%;
+      margin: 15px auto;
+    }
+
+    .my-btn button {
+      width: 90%;
+      margin-left: 5%;
+    }
+
+    .forget-password {
+      left: 5%;
+    }
+
+    .sign-up {
+      right: 5%;
+    }
+
+    .forget-password a,
+    .sign-up a {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .my-form-fields {
+      width: 80%;
+      height: 480px;
+    }
+
+    .my-input-group {
+      width: 80%;
+    }
+
+    .name,
+    .password {
+      width: 90%;
+    }
+
+    .my-btn button {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .my-form-fields {
+      width: 450px;
+      height: 520px;
+    }
+  }
+  
